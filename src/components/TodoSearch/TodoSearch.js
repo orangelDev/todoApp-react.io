@@ -4,7 +4,7 @@ import searchIcon from "../../assets/search-icon.svg"
 
 function TodoSearch({
   searchValue,
-  SetSearchValue,
+  setSearchValue,
 }) {
   return (
     <div className="search-container">
@@ -13,7 +13,7 @@ function TodoSearch({
       placeholder="Cut onion" 
       value={searchValue}
       onChange={(event) => {
-        SetSearchValue(event.target.value)
+        setSearchValue(event.target.value)
       }}
       />
       <img className="search-icon" src={searchIcon} alt="search-icon" />
