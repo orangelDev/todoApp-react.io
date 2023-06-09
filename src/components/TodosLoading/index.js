@@ -1,8 +1,12 @@
 import React from 'react';
+import './TodosLoading.css'
 
 function TodosLoading() {
   return (
-    <p>Loading...</p>
+    <div className="LoadingTodo-container">
+      <p className="LoadingTodo-text"></p>
+    </div>
+   
   )
 }
 
