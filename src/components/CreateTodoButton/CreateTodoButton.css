@@ -17,6 +17,7 @@
     background-color: #7996f5;
     cursor: pointer;
     color: aliceblue;
+    z-index: 1;
     /*   background: url("./assets/circle-check.svg") no-repeat;
     background-size: 90%;
     background-position: center center; */
