@@ -5,11 +5,12 @@ import { TodoContext } from '../TodoContext';
 function TodoCounter() {
 	const {
 		completedTodos,
-		totalTodos
+		totalTodos,
+		searchedTodos
 	} = React.useContext(TodoContext)
 	return (
 		
-		totalTodos === completedTodos ?
+		totalTodos === completedTodos &&  searchedTodos.length === 1 ?
 
 		<h2 className="title"> Felicidades, completaste todas las tareas crack!!</h2>
 
