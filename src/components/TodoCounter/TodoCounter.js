@@ -11,7 +11,7 @@ function TodoCounter() {
 	} = React.useContext(TodoContext)
 	return (
 		
-		totalTodos === completedTodos &&  searchedTodos.length === 1 ?
+		totalTodos === completedTodos &&  searchedTodos.length >= 1 ?
 		
 		<h2 className="title"> Congratulations, you have completed all the tasks crack!!</h2>
 
